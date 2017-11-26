@@ -286,12 +286,20 @@ footer {
 .announcement1 {
   font-size: 0.77rem;
   padding-top: 1rem;
-
 }
 
 .announcement2 {
   font-size: 1rem;
-  
+}
+
+.nav span {
+  display: none;
+}
+
+#menu {
+  display: inline-flex;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .watch {
