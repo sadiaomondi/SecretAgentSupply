@@ -1,0 +1,234 @@
+html {
+  font-size: 18px;
+  color: white;
+  font-family: Helvetica;
+
+}
+body {
+
+}
+
+.site-container {
+  margin: 0 auto;
+}
+
+header {
+  background-color: black;
+
+
+}
+
+.logo {
+  max-width: 960px;
+  margin-right: 1rem;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  align-items: center;
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+
+}
+
+.logo img {
+  height: 1.5rem;
+  padding-right: 1rem;
+  padding-left: 0.5rem;
+}
+
+header p {
+  font-size: 1rem;
+}
+
+.banner {
+  height: 25rem;
+
+}
+
+.banner, .main-banner {
+  background-image: url("../images/moto.jpeg"
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: visible;
+  width: 100%;
+
+}
+
+.banner-text {
+  max-width: 960px;
+  margin: 0 auto;
+  padding-top: 9rem;
+}
+
+.announcement {
+  background-color: black;
+  width: 20rem;
+  padding: 2rem 3rem;
+  font-weight: bold;
+  position: relative;
+
+}
+
+.announcement1 {
+  font-size: 1rem;
+  padding-bottom: 0.25rem;
+}
+
+.announcement2 {
+  font-size: 2rem;
+  font-weight: bold;
+ line-height: 2.25rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.navigation  {
+  background-color: firebrick;
+}
+
+ .nav {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 960px;
+}
+
+.nav span {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.product-grid {
+  display: flex;
+  margin: 0 auto;
+  max-width: 960px;
+  flex-direction: column;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+}
+
+.products div {
+  width: 30%;
+}
+
+ figure {
+  border: 4px solid black;
+}
+
+.image1 {
+  overflow: hidden;
+}
+
+.image1 img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  height: 9rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  margin: 0 auto;
+}
+
+.image2 {
+  overflow: hidden;
+}
+
+.image2 img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  height: 9rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  margin: 0 auto;
+}
+
+.image3 {
+  overflow: hidden;
+}
+.image3 img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  height: 9rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  margin: 0 auto;
+}
+
+figcaption {
+  background-color: black;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+}
+
+.reach-us {
+  max-width: 960px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.location {
+  width: 35%;
+  display: block;
+}
+
+.location h5 {
+  background-color: black;
+}
+
+.reach-us h5 {
+  font-size: 1rem;
+  background-color: black;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.reach-us p {
+  color: black;
+}
+
+
+.hours {
+  width: 35%;
+}
+
+footer {
+  height: 5rem;
+  background-color: black;
+  margin-top: 4rem;
+}
+
+.footer-text {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.footer-text p {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+@media only screen and (max-width: 1024px) {
+
+}
