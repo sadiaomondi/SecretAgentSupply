@@ -79,7 +79,7 @@ header p {
 .announcement2 {
   font-size: 2rem;
   font-weight: bold;
- line-height: 2.25rem;
+  line-height: 2.25rem;
 }
 
 .main {
@@ -105,6 +105,10 @@ header p {
 .nav span {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+#menu {
+display: none;
 }
 
 .product-grid {
@@ -230,5 +234,97 @@ footer {
 }
 
 @media only screen and (max-width: 1024px) {
+
+  .announcement2 {
+    font-size: 1rem;
+  }
+
+  .nav span {
+    display: none;
+  }
+
+  #menu {
+    display: inline-flex;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+.products {
+  width: 100%;
+}
+
+#glass {
+  display: none;
+}
+
+
+.products div {
+  width: 47%;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+
+.logo p {
+  display: none;
+}
+
+.banner {
+  height: 15rem;
+}
+
+.logo img {
+  margin: 0 auto;
+}
+
+.banner-text {
+  width: 100%;
+  padding-top: 10rem;
+  padding-bottom: 0 ;
+}
+
+.announcement1 {
+  font-size: 0.77rem;
+  padding-top: 1rem;
+
+}
+
+.announcement2 {
+  font-size: 1rem;
+  
+}
+
+.watch {
+  display: none;
+}
+
+.products div {
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+.pen {
+  width: 90%;
+}
+
+.reach-us {
+  display: flex;
+  flex-direction: column;
+}
+
+.reach-us div {
+  width: 90%;
+  margin: 0 auto;
+
+}
+
+.hours {
+  padding-top: 0.5rem;
+}
+
+.footer-text p{
+    margin: 0 auto;
+}
 
 }
